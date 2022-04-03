@@ -5,6 +5,6 @@ pipeline {
             steps {
                 echo 'Hello World!'
             }
-        } // state('greeting') {
-    } // stages {
-} // pipeline {
+        } // state('greeting')
+    } // stages
+} // pipeline
