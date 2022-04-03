@@ -6,7 +6,7 @@ pipeline {
                 stage('greeting-1') {
                     steps {
                         echo 'Hello World-1!'
-                    }} //  steps
+                    } //  steps
                 } // stage('greeting-1')
                 stage('greeting-2') {
                     steps {
@@ -14,6 +14,6 @@ pipeline {
                     } //  steps
                 } // stage('greeting-2')
             } // parallel
-        } // state('greeting')
+        } // stage('greeting-parallel')
     } // stages
 } // pipeline
